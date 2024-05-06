@@ -36,3 +36,35 @@ export const TableData = [
         statut: "Validé"
     },
 ]
+export const Datas = [
+    {
+        membre: "Selena Roy",
+        date: "01-06-2022",
+        Progression: 100
+    },
+    {
+        membre: "Emma Watson",
+        date: "01-06-2022",
+        Progression: 100
+    },
+    {
+        membre: "Jhon Robert",
+        date: "01-06-2022",
+        Progression: 64
+    },
+    {
+        membre: "Anne Hathaway",
+        date: "01-06-2022",
+        Progression: 57
+    },
+    {
+        membre: "Ravi Shankar",
+        date: "01-06-2022",
+        Progression: 50
+    },
+    {
+        membre: "Emma Stone",
+        date: "01-06-2022",
+        Progression: 50
+    },
+]

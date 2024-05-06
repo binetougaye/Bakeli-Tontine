@@ -24,10 +24,26 @@ ChartJS.register(
 
 export function LineGraph() {
   // const options = {};
+  const options = {
+    plugins: {
+      display: true,
+      legend: {
+        labels: {
+          font: {
+            size: 14,
+          },
+          filter: function (item, chart) {
+            // Hide legend for the specific dataset with label set to null
+            return item.text !== null;
+          },
+        },
+      },
+    },
+  };
   const data = {};
   return (
     <div>
-      <Line data={LinecharData} />
+      <Line data={LinecharData} options={options} />
     </div>
   );
 }

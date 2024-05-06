@@ -10,9 +10,13 @@ export const LinecharData = {
   ],
   datasets: [
     {
-      label: "Evolution des cotisations en fonction du temps",
+      // label: "Evolution des cotisations en fonction du temps",
+      label: null,
       data: [3000, 5000, 4500, 6000, 8000, 7000, 9000],
-      borderColor: "rgb(175,192,192)",
+      borderColor: "#20DF7F",
+      pointBackgroundColor: "#093545", 
+      pointBorderColor: "none",
+      pointRadius: "5"
     },
   ],
 };

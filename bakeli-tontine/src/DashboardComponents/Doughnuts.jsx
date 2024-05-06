@@ -18,11 +18,22 @@ export function Doughnuts() {
     plugins: {
       legend: {
         position: "bottom", 
+        labels: {
+          font: {
+            size: 10,
+          },
+          boxWidth: 10,
+          padding: 5,
+          color: "black", // Couleur du texte de la légende
+        
+          maxWidth: 50, // Largeur maximale avant wrapping
+        },
       },
     },
   };
-  return (
-    <div className="doughnut-chart">
+  
+  return (  
+    <div className="doughnut-chart ">
       <Doughnut data={data} options={options}></Doughnut>
     </div>
   );

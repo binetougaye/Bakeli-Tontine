@@ -2,12 +2,37 @@
 
 body {
   font-family: "Montserrat", sans-serif !important;
-  /* background-color: #D2D2D2 !important; */
+  background-color: #D2D2D2 !important;
 }
-.doughnut-chart{
+
+
+.graphTitle {
+  background-color: #20DF7F !important;
+  color: #093545;
+
+}
+
+.bg,
+.title {
+  background-color: #20DF7F !important;
+  color: #093545 !important;
+  padding:15px ;
+}
+
+
+.doughnut-chart {
   width: 250px;
-  height: 250px;
+  height: 270px;
+ 
+  
 }
+.charts{
+  height: 300px !important;
+}
+.chart{
+  height: 300px;
+}
+
 .card h4 {
   color: #093545
 }
