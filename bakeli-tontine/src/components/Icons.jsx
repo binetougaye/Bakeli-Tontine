@@ -13,57 +13,57 @@ const Icons = ({ icon, icon2, icon3, icon4, icon5, icon6, icon7, icon8 }) => {
                             <h5 className="modal-title p-2" id="exampleModalLabel">Détails Cotisations</h5>
                         </div>
                         <div class="modal-body">
-                            <h6 className="fs-5 fw-bold p-2">Selene Roy</h6>
-                            <span className="span">Designere</span>
+                            <h5 className="fs-5 fw-bold p-2 roy">Selene Roy</h5>
+                            <span className="span">Designer</span>
 
                             <table className="table-striped text-center">
                                 <thead >
                                     <tr>
-                                        <th className="p-2 fs-6" scope="col">Mois</th>
-                                        <th className="fs-6" scope="col">Date </th>
-                                        <th className="fs-6" scope="col">Montant</th>
+                                        <th className="fs-5 p-2" scope="col">Mois</th>
+                                        <th className="fs-5" scope="col">Date </th>
+                                        <th className="fs-5" scope="col">Montant</th>
 
 
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr className="tr">
-                                        <td className="p-2">Janvier</td>
-                                        <td>22-01-2022</td>
-                                        <td>25.000 FCFA</td>
+                                        <td className=" fs-6 text-dark">Janvier</td>
+                                        <td className=" fs-6 text-dark">22-01-2022</td>
+                                        <td className=" fs-6 text-dark">25.000 FCFA</td>
 
                                     </tr>
                                     <tr className="tr1">
-                                        <td className="p-2" >Février</td>
-                                        <td>01/01/2022</td>
-                                        <td>25.000 FCFA</td>
+                                        <td className=" fs-6 text-dark" >Février</td>
+                                        <td className=" fs-6 text-dark">01/01/2022</td>
+                                        <td className=" fs-6 text-dark">25.000 FCFA</td>
 
                                     </tr>
 
 
                                     <tr className="tr2">
-                                        <td className="p-2" >Mars</td>
-                                        <td>01/01/2022</td>
-                                        <td>25.000 FCFA</td>
+                                        <td className=" fs-6 text-dark" >Mars</td>
+                                        <td className=" fs-6 text-dark">01/01/2022</td>
+                                        <td className=" fs-6 text-dark">25.000 FCFA</td>
 
                                     </tr>
                                     <tr className="tr3">
-                                        <td className="p-2" >Avril</td>
-                                        <td>01/01/2022</td>
-                                        <td>25.000 FCFA</td>
+                                        <td className=" fs-6 text-dark" >Avril</td>
+                                        <td className=" fs-6 text-dark">01/01/2022</td>
+                                        <td className=" fs-6 text-dark">25.000 FCFA</td>
 
                                     </tr>
                                     <tr className="tr4">
-                                        <td className="p-2">Mai</td>
-                                        <td>01/01/2022</td>
-                                        <td>25.000FCFA</td>
+                                        <td className="fs-6">Mai</td>
+                                        <td className="fs-6">01/01/2022</td>
+                                        <td className="fs-6">25.000FCFA</td>
 
 
                                     </tr>
                                     <tr className="tr5">
-                                        <td className="p-2" >Juin</td>
-                                        <td>01/01/2022</td>
-                                        <td>25.000 FCFA</td>
+                                        <td className=" fs-6 text-dark">Juin</td>
+                                        <td className=" fs-6 text-dark">01/01/2022</td>
+                                        <td className=" fs-6 text-dark">25.000 FCFA</td>
                                     </tr>
 
                                 </tbody>
@@ -88,7 +88,7 @@ const Icons = ({ icon, icon2, icon3, icon4, icon5, icon6, icon7, icon8 }) => {
             <i className={` arrow-file ${icon5}`}></i>
             <i className={` file ${icon6}`}></i>
             <i>{icon7}</i>
-            <i className={` text-danger fw-bold file2 ${icon8}`}></i>
+            <i className={`  file2 ${icon8}`}></i>
 
         </div>
 

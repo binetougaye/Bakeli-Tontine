@@ -9,10 +9,10 @@
 }
 
 body{
-  background-color: rgb(223, 233, 238);
+  background-color: #D2D2D2;
 }
 .card{
-  background-color:rgb(20, 212, 132);
+  background-color:#20DF7F;
   width:338px;
   height: 150px;
   border-radius: 10px;
@@ -24,7 +24,7 @@ body{
   color: red;
 }
 .card2:hover{
-  background-color:rgb(20, 212, 132);
+  background-color:#20DF7F;
 }
 .modal-content{
   height: 520px;
@@ -32,7 +32,7 @@ body{
 }
 .card:hover{
   background-color:white;
-  color: hsl(216, 45%, 29%);
+  color: #093545;
 }
 
 
@@ -43,7 +43,7 @@ body{
 }
 
 .card-h5{
-  color: hwb(220 4% 86% / 0.909);
+  color: #093545;
   font-size: 19px;
 
 }
@@ -56,40 +56,38 @@ body{
   bottom: 10px;
 }
 .card-h4{
-  color: hwb(216 10% 76%);
+  color: #093545;
   position: relative;
   bottom: 10px;
 
 }
 .form-label{
-  font-size: 14px;
-  color:hsl(213, 12%, 19%);
+  font-size: 19px;
+  color:rgb(62, 61, 61);
   font-weight: bold;
 }
 .form-control{
-  border-color: hsl(216, 45%, 29%);
-}
-
-.card {
-  background-color:rgb(20, 212, 132);
-
+  border: 1px solid #093545;
+  height: 50px;
 }
 
 .icône{
   font-size: 17px;
 }
 .add{
-    width: 230px;
-    color: hsl(216, 45%, 29%);
-    background-color:rgb(20, 212, 132);
+    width: 270px;
+    font-size: 22px;
+    height: 50px;
+    color: #093545;
+    background-color:#20DF7F;
     border: none;
     border-radius: 6px;
     font-weight: bold;
     position: relative;
-    bottom: 90px;
+    bottom: 30px;
   }
 .add2{
-   background-color: hsl(215, 49%, 14%);
+   background-color: #093545;
    border: none;
     border-radius: 10px;
     font-weight: bold;
@@ -103,7 +101,8 @@ body{
 
 }
 .modal-h2{
-  color: hsl(216, 45%, 29%);
+  color: #093545;
+  font-size: 39px;
 }
 .col{
   position: relative;
@@ -119,7 +118,7 @@ body{
     width: 70%;
     padding: 14px;
     border-radius: 6px;
-    background-color:rgb(20, 212, 132);
+    background-color:#20DF7F;
 
 }
 tbody{
@@ -131,21 +130,19 @@ table{
   margin: 0 auto;
   width:69%;
   height: 300px;
-  /* position: relative;
-  bottom: 30px; */
 
 }
 thead {
-  background-color: rgb(20, 212, 132); 
+  background-color: #20DF7F; 
   height: 70px;
 
 }
 td{
-  color: hsl(216, 45%, 29%);
+  color: #093545;
   font-size:13px;
 }
 th{
-  color: hsl(216, 45%, 29%);
+  color: #093545;
 }
 
 .progress{
@@ -161,39 +158,39 @@ span{
 }
 
 .progress-bar{
-  background-color: rgb(20, 212, 132); 
+  background-color: #20DF7F; 
 
 }
 
 .progress-bar1{
-  background-color: hsl(216, 45%, 29%) ; 
+  background-color: #093545;
 
 }
 
 
 
 .progress-bar2{
-  background-color: hsl(216, 45%, 29%) ; 
+  background-color: #093545;
 }
 
 .progress-bar3{
-  background-color: hsl(216, 45%, 29%) ; 
+  background-color: #093545;
 }
 
 
 .modal-header{
-  background-color: rgb(20, 212, 132); 
+  background-color: #20DF7F; 
  width: 100%;
 }
 .h3{
-  color: hsl(216, 45%, 29%); 
+  color: #093545;
 }
 .span{
   position: relative;
   left: 51px;
 }
 .modal-body thead{
-  background-color: hsl(216, 45%, 29%);
+  background-color: #093545;
   height:10px;
 }
 .modal-body th{
@@ -208,37 +205,37 @@ span{
 }
 
 .tr{
-  background-color:#e3d9d9f5;
+  background-color: #D2D2D2;
 }
 
 
 .tr1{
-  background-color:#e3d9d9f5;
+  background-color: #D2D2D2;
   position: relative;
   top: 4px;
 }
 .tr2{
-  background-color:#e3d9d9f5;
+  background-color: #D2D2D2;
   position: relative;
   top: 8px;
 }
 .tr3{
-  background-color:#e3d9d9f5;
+  background-color: #D2D2D2;
   position: relative;
   top: 12px;
 }
 .tr4{
-  background-color:#e3d9d9f5;
+  background-color: #D2D2D2;
   position: relative;
   top: 16px;
 }
 .tr5{
-  background-color:#e3d9d9f5;
+  background-color: #D2D2D2;
   position: relative;
   top: 20px;
 }
 .tr6{
-  background-color:#e3d9d9f5;
+  background-color: #D2D2D2;
   position: relative;
   top: 24px;
 }
@@ -260,20 +257,20 @@ span{
   position: relative;
   right: 25px;
   bottom: 80px;
-  color: rgb(20, 212, 132);
+  color: #20DF7F;
 }
 .total2{
   position: relative;
   right: 25px;
   bottom: 90px;
-  color: hsl(216, 45%, 29%);
+  color: #093545;
 }
 
 .file:hover{
   color: red;
 }
 .arrow-file:hover{
-  color: rgb(20, 212, 132);
+  color: #20DF7F;
 
 }
 .file,.arrow-file{
@@ -299,7 +296,7 @@ span{
 }
 
 .statut1,.statut3{
-  color: rgb(20, 212, 132);
+  color: #20DF7F;
   font-size: 19px;
 font-weight: bold;
 position: relative;
@@ -320,38 +317,57 @@ left: 20px;
 }
 .th1{
   font-size: 21px;
-  color: hwb(216 10% 76%);
+  color: #093545;
 }
 .td1{
   font-size: 18px;
-  color: hwb(216 12% 76%);
+  color: #093545;
   padding: 12px;
 
 }
 .statut7{
-  font-size: 15px;
+  font-size: 18px;
   position: relative;
   left: 20px;
+  color: red;
 }
 .file2{
   position: relative;
   top: 4px;
-  color: black;
+  color: rgb(247, 80, 80);
+  font-size: 21px;
+  right:48px;
 
-  
 }
+.tabla{
+  width: 800px;
+  height: 400px;
+}
+.tabla1{
+  width: 1000px;
+}
+.eye1{
+  font-size: 21px;
+  position: relative;
+  top:5px;
+  right:50px;
+}
+
 .fa-regular{
   color: black;
   position: relative;
   bottom: 2px;
+  
 
 
 }
 .statut8,.statut9{
-  font-size: 15px;
+  font-size: 18px;
+  position: relative;
+  bottom: 10px;
 }
 .statut8{
-  color: rgb(20, 212, 132);
+  color: #20DF7F;
   font-weight: bold;
 }
 
@@ -364,7 +380,7 @@ left: 20px;
   right: 20px;
 }
 .page-item1{
-  background-color: rgb(20, 212, 132);
+  background-color: #20DF7F;
   color: black;
   font-weight: bold;
   width:30px;
@@ -382,10 +398,6 @@ left: 20px;
   border-radius: 30px;
   text-align: center;
 }
-
-
-
-
 
 
 

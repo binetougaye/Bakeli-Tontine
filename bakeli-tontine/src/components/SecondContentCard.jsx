@@ -5,7 +5,7 @@ const SecondContentCard = ({ th1, th2, th3, th4, th5, tableau }) => {
 
 
     return (<div>
-        <table>
+        <table className="tabla">
             <thead className=" shadow">
                 <tr>
                     <th className=" th1 p-4" scope="col">{th1}</th>
@@ -26,19 +26,19 @@ const SecondContentCard = ({ th1, th2, th3, th4, th5, tableau }) => {
                             <td className="p-2 td1">{item.date}</td>
                             <td className="p-2 td1">{item.montant}</td>
                             <td>
-                                <div className=" text-danger fw-bold statut7">{item.statut1}</div>
-                                <div className=" text-danger fw-bold  statut7">{item.statut2}</div>
-                                <div className="text-danger fw-bold  statut7">{item.statut3}</div>
-                                <div className=" text-danger fw-bold  statut7">{item.statut4}</div>
-                                <div className=" text-danger fw-bold  statut7">{item.statut5}</div>
-                                <div className="text-danger fw-bold  statut7">{item.statut6}</div>
+                                <div className="statut7">{item.statut1}</div>
+                                <div className="statut7">{item.statut2}</div>
+                                <div className="statut7">{item.statut3}</div>
+                                <div className="statut7">{item.statut4}</div>
+                                <div className=" statut7">{item.statut5}</div>
+                                <div className="statut7">{item.statut6}</div>
 
 
                             </td>
                             <td className="d-flex gap-3 mt-3">
 
                                 <Icons
-                                    icon7={<i className="fa-regular fa-eye " data-bs-toggle="modal" data-bs-target="#exampleModal"></i>}
+                                    icon7={<i className="fa-regular fa-eye eye1" data-bs-toggle="modal" data-bs-target="#exampleModal"></i>}
                                     icon8="fa-solid fa-ban file2"
 
                                 />

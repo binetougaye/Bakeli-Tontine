@@ -2,7 +2,7 @@ import Icons from "./Icons";
 
 const ThirdContentCard = ({ th1, th2, th3, th4, th5, th6, tableau }) => {
     return (<div>
-        <table>
+        <table className="tabla1">
             <thead className=" shadow ">
                 <tr>
                     <th className=" th1 p-3" scope="col">{th1}</th>
@@ -54,7 +54,7 @@ const ThirdContentCard = ({ th1, th2, th3, th4, th5, th6, tableau }) => {
                             <td className="d-flex gap-3 mt-3">
 
                                 <Icons
-                                    icon4={<i className="fa-regular fa-eye " data-bs-toggle="modal" data-bs-target="#exampleModal"></i>}
+                                    icon4={<i className="fa-regular fa-eye eye" data-bs-toggle="modal" data-bs-target="#exampleModal"></i>}
                                     icon5="fa-solid fa-file-arrow-down "
                                     icon6="fa-solid fa-ban file"
 

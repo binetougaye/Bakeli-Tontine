@@ -17,9 +17,9 @@ const FirstCard = () => {
     { nom: "Selena Roy", date: "01/01/2022", montant: "300.000 FCFA", progression1: "100%", statut1: "Terminé", progress1: "100%" },
     { nom: "Emma Watson", date: "01/01/2022", montant: "300.000 FCFA", progression2: "57%", statut2: "En cours", progress2: "57%" },
     { nom: "Selena Roy", date: "01/01/2022", montant: "300.000 FCFA", progression3: "100%", statut3: "Terminé", progress1: "100%" },
-    { nom: "Emma Watson", date: "01/01/2022", montant: "300.000 FCFA", progression4: "57%", statut4: "En cours", progress3: "50%" },
-    { nom: "Selena Roy", date: "01/01/2022", montant: "300.000 FCFA", progression5: "100%", statut5: "En cours", progress4: "50%" },
-    { nom: "Emma Watson", date: "01/01/2022", montant: "300.000 FCFA", progression6: "57%", statut6: "En cours", progress5: "64%" },
+    { nom: "Emma Watson", date: "01/01/2022", montant: "300.000 FCFA", progression4: "50%", statut4: "En cours", progress3: "50%" },
+    { nom: "Selena Roy", date: "01/01/2022", montant: "300.000 FCFA", progression5: "50%", statut5: "En cours", progress4: "50%" },
+    { nom: "Emma Watson", date: "01/01/2022", montant: "300.000 FCFA", progression6: "64%", statut6: "En cours", progress5: "64%" },
 
   ];
 
@@ -51,7 +51,7 @@ const FirstCard = () => {
       data-bs-toggle="modal"
       data-bs-target="#staticBackdrop4"
       id="bouton">Ajouter</button>}
-
+      addmember="Ajouter un membre"
       bouton2={
         <button className=" p-2 add  shadow"
           type="submit">Ajouter</button>

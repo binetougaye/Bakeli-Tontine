@@ -3,21 +3,21 @@ import Icons from "./Icons";
 
 
 
-const Bouton = ({ bouton, bouton2, icon3 }) => {
+const Bouton = ({ bouton, bouton2, icon3, addmember }) => {
     return (<div className="d-flex justify-content-end">
         <div>{bouton}
         </div>
         <div className="modal fade" id="staticBackdrop4" data-bs-backdrop="static"
             data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
             aria-hidden="true">
-            <div className="modal-dialog modal-md">
+            <div className=" modal-dialog  dialog">
                 <div className="modal-content">
                     <div className="d-flex justify-content-end p-2 fs-4">
                         <Icons
                             icon3={<i className="fa-solid fa-xmark" data-bs-dismiss="modal" aria-label="Close">{icon3}</i>} />
                     </div>
                     <div className="modal-body">
-                        <h2 className="text-center modal-h2">Ajouter un membre</h2>
+                        <h2 className="text-center modal-h2">{addmember}</h2>
                         <form className="row g-3  d-flex justify-content-center align-items-center  form mt-1">
                             <div className="col-md-6 ">
 
