@@ -20,14 +20,13 @@ function App() {
         {/* <CardTest/> */}
         <div className="row mt-5 ">
           <div className="col-lg-6 ">
-          <h6 className="title m-0">Evolution des cotisations en fonction du temps</h6>
+          <h6 className="title font-weight-bold m-0">Evolution des cotisations en fonction du temps</h6>
             <div className="card charts p-3 rounded-0 shadow border-0">
-           
               <LineGraph />
             </div>
           </div>
           <div className="col-lg-6  ">
-            <h6 className="title m-0">Statistiques</h6>
+            <h6 className="title font-weight-bold m-0">Statistiques</h6>
             <div className="card chart p-3 rounded-0 border-0 d-flex justify-content-center align-items-center">
               <Doughnuts />
             </div>
@@ -36,6 +35,7 @@ function App() {
         {/* <div className="col-lg-6"></div> */}
         <div className="row">
           <div className="col-lg-6">
+            <p>zrtyuiodfg</p>
             <Table
               text="Juin"
               membres="Membres"

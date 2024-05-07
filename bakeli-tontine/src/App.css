@@ -16,20 +16,22 @@ body {
 .title {
   background-color: #20DF7F !important;
   color: #093545 !important;
-  padding:15px ;
+  padding: 15px;
 }
 
 
 .doughnut-chart {
   width: 250px;
   height: 270px;
- 
-  
+
+
 }
-.charts{
+
+.charts {
   height: 300px !important;
 }
-.chart{
+
+.chart {
   height: 300px;
 }
 

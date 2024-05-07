@@ -1,7 +1,8 @@
 export default function Table({ membres, montant, date, statut, tableData,text }) {
   return (
     <>
-      <table className="table mt-5 shadow">
+   
+      <table className="table  shadow">
         <tr className="bg">
           <th scope="col">{membres}</th>
           <th scope="col">{montant}</th>

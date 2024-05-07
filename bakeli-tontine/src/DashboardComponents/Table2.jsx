@@ -37,8 +37,11 @@ export default function Table2({ membres, date, progression, datas }) {
                   aria-valuemin="0"
                   aria-valuemax="100"
                 >
-                  <div className="progress-bar" style={{ width: 50 }}></div>
+                  {data.Progression=== 100? (  <div className="progress-bar" style={{ width:"100", backgroundColor: "#20DF7F" }}></div>):(  <div className="progress-bar" style={{ width: data.Progression, backgroundColor: "#093545" }}></div>)}
+                
+                
                 </div>
+                {/* {data.Progression} */}
               </td>
             </tr>
           ))}

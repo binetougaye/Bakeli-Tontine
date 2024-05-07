@@ -24,9 +24,7 @@ export function Doughnuts() {
           },
           boxWidth: 10,
           padding: 5,
-          color: "black", // Couleur du texte de la légende
-        
-          maxWidth: 50, // Largeur maximale avant wrapping
+          maxWidth: 50, 
         },
       },
     },
