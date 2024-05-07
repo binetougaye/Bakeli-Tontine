@@ -1,0 +1,137 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:white;
+    box-shadow: 2px 2px 2px black;
+    height: 70px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 1;
+  }
+  .top{
+   position: relative;
+   top: 10px;
+   left: 5px;
+   font-size: 25px;
+  }
+  .tap{
+    position: relative;
+    top: 5px;
+    left: 5px;
+    font-size: 20px;
+   }
+  .navbar .nav-icon {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size:  30px;
+    color: white;
+  }
+  li a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  .navbar .nav-icons {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 50px;
+    color: black;
+    position: relative;
+    top: 5px;
+  }
+  .navbar .nav-ico {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 28px;
+    color: black;
+    position: relative;
+    top: 17px;
+    right: 10px;
+    
+  }
+  .sidebar .nav-icon {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 30px;
+    color: white;
+    position: relative;
+    top: 6px;
+    right: 10px;
+  }
+   
+  .right-tap{
+    font-size: 13px;
+    padding-bottom: 80px;
+  }
+  .right-ta{
+    position: relative;
+    top: 20px;
+    right: 20px;
+  }
+  .para{
+    padding-left: 200px;
+    position: relative;
+    top:10px;
+    font-size: 70px;
+    font-weight: bold;
+  }
+  .navbar-right{
+    display: flex;
+    justify-content: space-around;
+    padding-right: 30px;
+    padding-top: 25px;
+  }
+  .navbar-left{
+    padding-left:250px;
+    padding-bottom: 20px;
+  }
+  
+  /* Sidebar */
+  .sidebar {
+    width: 250px;
+    height: 100vh;
+    background-color: #19414f;
+    color: white;
+    z-index: 10;
+    position: relative;
+    bottom: 70px;
+  }
+  .param{
+    padding-left: 20px;
+  
+  }
+  .sidebar-top{
+    position: relative;
+    top: 80px;
+  }
+  .hach{
+    position: relative;
+    bottom: 40px;
+    left: 10px;
+  }
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+  }
+  
+  .sidebar a:hover {
+    background-color: #66b04e;
+  }
+  
+  
+  
+  
