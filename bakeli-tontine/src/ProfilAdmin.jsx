@@ -1,0 +1,98 @@
+import React, { useState } from 'react';
+
+import './Profil.css'
+import { Link } from 'react-router-dom';
+
+const ProfilAdmin = ({ profil, personne, admin, img, buton }) => {
+  const tableau = [
+    { prenom: "faby", nom: "Gaye", statut: "admin", email: "gayefaby32@gmail.com" }
+  ]
+    
+    const array = [
+      {
+        nombre1:"25" , nombre2:"10" , nombre3:"4"
+      }
+    ]
+
+  
+  return (
+    <div className='container'>
+
+      <div className='profil'>
+        {/* <h2>{}</h2> */}
+        <p className='titre'>{profil}</p>
+        <img className='img' src={img} alt="" />
+        <p>{personne} </p>
+        <p>{admin}</p>
+        <Link to="/editAdmin"><button className='editer'>{buton}</button></Link>
+      </div>
+      <div className='bordure'>
+      </div>
+      <div>
+        <div>
+          <p className='info'>Information general</p>
+          <table class="table">
+            <thead>
+              {/* <tr className='d-flex flex-column'> */}
+              <tr className='d-flex justify-content-between'>
+                <th scope="col">Prenom</th>
+                <td>{tableau[0].prenom}</td>
+              </tr>
+              <tr className='d-flex justify-content-between'>
+                <th scope="col">Nom</th>
+                <td>{tableau[0].nom}</td>
+              </tr>
+              <tr className='d-flex justify-content-between'>
+                <th scope="col">Statut</th>
+                <td>{tableau[0].statut}</td>
+              </tr>
+              <tr className='d-flex justify-content-between'>
+                <th scope="col">Email</th>
+                <td>{tableau[0].email}</td>
+              </tr>
+             
+            </thead>
+            <tbody>
+              {/* {tableau.map((item, index) => (
+                <tr key={index} className='d-flex'>
+                  <td>{item.prenom}</td>
+                  <td>{item.nom}</td>
+                  <td>{item.statut}</td>
+                  <td>{item.email}</td>
+                </tr>
+              ))} */}
+            </tbody>
+          </table>
+        </div>
+        <div>
+          <p className='info'>Statistique</p>
+          <table class="table">
+            <thead>
+              {/* <tr className='d-flex flex-column'> */}
+              <tr className='d-flex justify-content-between'>
+                <th scope="col">Nombre de membre ajoutés</th>
+                <td>{array[0].nombre1}</td>
+              </tr>
+              <tr className='d-flex justify-content-between'>
+                <th scope="col">Nombre de membre archivés</th>
+                <td>{array[0].nombre2}</td>
+              </tr>
+              <tr className='d-flex justify-content-between'>
+                <th scope="col">Nombre de membre bloqués</th>
+                <td>{array[0].nombre3}</td>
+              </tr>
+              
+             
+            </thead>
+            <tbody>
+             
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+    </div>
+  );
+};
+
+export default ProfilAdmin;
