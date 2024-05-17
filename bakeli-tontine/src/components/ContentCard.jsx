@@ -1,10 +1,9 @@
 import Icons from "./Icons";
 
-
 const ContentCard = ({ th1, th2, th3, th4, th5, th6, tableau }) => {
 
     return (<div>
-        <table >
+        <table>
             <thead className="shadow">
                 <tr>
                     <th className=" p-4  th1" scope="col">{th1}</th>

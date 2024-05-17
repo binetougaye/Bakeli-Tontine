@@ -7,19 +7,20 @@ const Bouton = ({ bouton, bouton2, icon3, addmember }) => {
     return (<div className="d-flex justify-content-end">
         <div>{bouton}
         </div>
-        <div className="modal fade" id="staticBackdrop4" data-bs-backdrop="static"
+        <div className="modal fade " id="staticBackdrop4" data-bs-backdrop="static"
             data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
             aria-hidden="true">
-            <div className=" modal-dialog  dialog">
-                <div className="modal-content">
+            <div className=" modal-dialog">
+                <div className="modal-content dialog">
                     <div className="d-flex justify-content-end p-2 fs-4">
                         <Icons
                             icon3={<i className="fa-solid fa-xmark" data-bs-dismiss="modal" aria-label="Close">{icon3}</i>} />
                     </div>
+                    
                     <div className="modal-body">
                         <h2 className="text-center modal-h2">{addmember}</h2>
-                        <form className="row g-3  d-flex justify-content-center align-items-center  form mt-1">
-                            <div className="col-md-6 ">
+                        <form className="row g-3   mt-4">
+                            <div className="col-md-6 form ">
 
                                 <Input
                                     name="Nom"
@@ -44,7 +45,7 @@ const Bouton = ({ bouton, bouton2, icon3, addmember }) => {
                                 />
                             </div>
 
-                            <div className="col-md-6 col ">
+                            <div className="col-md-6 form1 ">
                                 <Input
                                     mail="Email"
                                     input={<input type="mail" className="form-control" required />}
@@ -56,9 +57,9 @@ const Bouton = ({ bouton, bouton2, icon3, addmember }) => {
                                 />
 
                             </div>
-                            <div className="col-md-6 col">
+                            <div className="col-md-6 ">
                                 <Input
-                                    adress="Adresse"
+                                    adress="Adresse" 
                                     input={<input type="text" className="form-control" required />}
                                 />
 

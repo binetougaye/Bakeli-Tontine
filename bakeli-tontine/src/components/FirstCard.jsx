@@ -5,7 +5,6 @@ import ThirdCard from "./ThirdCard";
 import Bouton from "./Bouton";
 import ContentCard from "./ContentCard";
 
-
 const FirstCard = () => {
 
   const [card, setCard] = useState(true)
@@ -25,7 +24,7 @@ const FirstCard = () => {
 
   return (<div >
     <div className="d-flex justify-content-center align-items-center p-4 gap-4">
-      <div className=" shadow  card p-3" onClick={handleClick} >
+      <div className=" shadow  card p-3"  onClick={handleClick} >
         <div className="d-flex gap-1 ">
           <h5 className=" h5 p-2">Membres Actif</h5>
           <Icons
