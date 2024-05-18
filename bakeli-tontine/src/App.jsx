@@ -1,41 +1,36 @@
-// import {Li}
+
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Card from "./DashboardComponents/Card";
 import { Data } from "./DashboardComponents/CardData";
-// import Titles from "./DashboardComponents/Titles";
 import Table from "./DashboardComponents/Table";
 import { TableData } from "./DashboardComponents/TableData";
 import { LineGraph } from "./DashboardComponents/Line";
 import { Doughnuts } from "./DashboardComponents/Doughnuts";
 import Table2 from "./DashboardComponents/Table2";
-import CardTest from "./DashboardComponents/CardTest";
 import { Datas } from "./DashboardComponents/TableData";
-import { Tab } from "bootstrap";
+import Cards from "./DashboardComponents/Cards";
 function App() {
   return (
     <div>
       <div className="container">
-        <Card data={Data} />
-        {/* <CardTest/> */}
+        <Cards data={Data} />
         <div className="row mt-5 ">
           <div className="col-lg-6 ">
-          <h6 className="title font-weight-bold m-0">Evolution des cotisations en fonction du temps</h6>
-            <div className="card charts p-3 rounded-0 shadow border-0">
+          <h6 className="title p-3 fw-bold m-0 px-4 fs-6">Evolution des cotisations en fonction du temps</h6>
+            <div className="card rounded-bottom charts p-3 rounded-0 shadow border-0">
               <LineGraph />
             </div>
           </div>
-          <div className="col-lg-6  ">
-            <h6 className="title font-weight-bold m-0">Statistiques</h6>
-            <div className="card chart p-3 rounded-0 border-0 d-flex justify-content-center align-items-center">
+          <div className="col-lg-6">
+            <h6 className="title p-3 fw-bold m-0 px-4 fs-6">Statistiques</h6>
+            <div className="card shadow rounded-bottom chart p-3 rounded-0 border-0 d-flex justify-content-center align-items-center">
               <Doughnuts />
             </div>
           </div>
         </div>
-        {/* <div className="col-lg-6"></div> */}
         <div className="row">
           <div className="col-lg-6">
-            <p>zrtyuiodfg</p>
+            <h5 className="mt-5 mb-2 fw-bold text-dark">Juin</h5>
             <Table
               text="Juin"
               membres="Membres"
@@ -46,6 +41,7 @@ function App() {
             />
           </div>
           <div className="col-lg-6">
+            <h5 className="mt-5 mb-2 fw-bold text-dark">Top Progression</h5>
             <Table2
               text="Progression"
               membres="Membres"

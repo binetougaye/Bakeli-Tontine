@@ -1,13 +1,18 @@
-export default function Table({ membres, montant, date, statut, tableData,text }) {
+export default function Table({ membres, montant, date, statut, tableData }) {
+  const tableStyle = {
+    borderRadius: "10px",
+    overflow: "hidden",
+    backgroundColor: "white",
+    width: "100%",
+  };
   return (
     <>
-   
-      <table className="table  shadow">
-        <tr className="bg">
-          <th scope="col">{membres}</th>
-          <th scope="col">{montant}</th>
-          <th scope="col">{date}</th>
-          <th scope="col">{statut}</th>
+      <table style={tableStyle} className="shadow">
+        <tr className="bg rounded-tr">
+          <th>{membres}</th>
+          <th>{montant}</th>
+          <th>{date}</th>
+          <th>{statut}</th>
         </tr>
         <tbody>
           {tableData.map((tab, index) => (

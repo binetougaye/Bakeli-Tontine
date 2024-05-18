@@ -12,11 +12,57 @@ body {
 
 }
 
+.progress-bar {
+  background-color: #20DF7F !important;
+}
+
+.img {
+  background-color: #d4efe2;
+  width: 80px;
+  padding: 10px;
+  height: 90px;
+}
+
+.test {
+  height: 130px !important;
+  width: 350px;
+}
+
+.teste {
+  width: 450px !important;
+}
+
+.progress {
+  height: 8px !important;
+}
+
+.card-text {
+  color: #093545 !important;
+  font-size: 16px;
+  text-wrap: nowrap;
+}
+
+.span {
+  color: #D2D2D2;
+}
+
+.span2 {
+  color: #093545;
+}
+
 .bg,
 .title {
   background-color: #20DF7F !important;
   color: #093545 !important;
-  padding: 15px;
+}
+table td{
+  padding: 12px;
+}
+table th{
+  padding: 12px;
+}
+.bg {
+  border-radius: 20px !important;
 }
 
 
@@ -37,6 +83,28 @@ body {
 
 .card h4 {
   color: #093545
+}
+
+.card-text h5 {
+  color: #093545;
+
+}
+
+.para {
+  color: #33343D !important;
+  font-size: 18px;
+}
+
+.card-body h6 {
+  color: #807D9B !important;
+}
+
+.title {
+  font-size: 13px;
+  color: #093545;
+  border-top-right-radius: 14px;
+  border-top-left-radius: 14px;
+
 }
 
 .card p {

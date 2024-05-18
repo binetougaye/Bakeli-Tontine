@@ -1,21 +1,14 @@
-import CardTest from "./CardTest";
-const Card = ({ data }) => (
-  <div>
-    <div className="row">
-      {data.map((card, index) => (
-        <div className="col-lg-4" key={index}>
-          <div className="card shadow border-0" style={{ width: "18rem" }}>
-            <div className="card-body">
-              <h6 className="card-title">{card.mois}</h6>
-              <h4 className="card-text">{card.montant} FCFA</h4>
-              <p className="card-text">
-                Nombre de cotisation: {card.cotisation}
-              </p>
-            </div>
-          </div>
-        </div>
-      ))}
-    </div>
+
+const Card = ({items,key}) => (
+  <div className="col-lg-4" key={key}>
+   <div className="card test rounded-3 shadow">
+  <div className="card-body">
+    <p className="card-title para">{items.mois}</p>
+    <h5 className="card-text fw-bold fs-4">{items.montant} FCFA</h5>
+    <h6 className="card-text">Cotisation: {items.cotisation}</h6>
+   
+  </div>
+</div>
   </div>
 );
 

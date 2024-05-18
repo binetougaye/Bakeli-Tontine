@@ -32,15 +32,18 @@ export function LineGraph() {
           font: {
             size: 14,
           },
+
           filter: function (item, chart) {
             // Hide legend for the specific dataset with label set to null
             return item.text !== null;
           },
         },
       },
+      
     },
+    
   };
-  const data = {};
+  // const data = {};
   return (
     <div>
       <Line data={LinecharData} options={options} />

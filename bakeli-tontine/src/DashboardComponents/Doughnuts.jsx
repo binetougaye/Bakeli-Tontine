@@ -14,23 +14,39 @@ export function Doughnuts() {
     ],
     labels: ["Terminé", "En cours", "Archivé", "Bloqué"],
   };
+
   const options = {
     plugins: {
       legend: {
-        position: "bottom", 
+        position: "bottom",
         labels: {
           font: {
             size: 10,
           },
           boxWidth: 10,
           padding: 5,
-          maxWidth: 50, 
+          maxWidth: 50,
         },
       },
+      tooltip: {
+        callbacks: {
+          label: function(context) {
+            var label = context.dataset.labels[context.dataIndex] || '';
+
+            if (label) {
+              label += ': ';
+            }
+            if (context.parsed.y !== null) {
+              label += context.parsed.y + '%'; // Format the tooltip label as percentage
+            }
+            return label;
+          }
+        }
+      }
     },
   };
-  
-  return (  
+
+  return (
     <div className="doughnut-chart ">
       <Doughnut data={data} options={options}></Doughnut>
     </div>
