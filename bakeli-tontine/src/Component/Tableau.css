@@ -1,0 +1,13 @@
+.table thead .entete th{
+    background-color: #20DF7F;
+    padding: 16px;
+    position: relative;
+    top: 10px;
+    
+}
+.table thead .entete tr{
+
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+td{border: none;}
