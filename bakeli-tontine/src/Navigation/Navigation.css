@@ -1,0 +1,192 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:white;
+  box-shadow: 1px 1px 2px rgb(147, 141, 141);
+  height: 70px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  z-index: 1;
+}
+.top{
+ position: relative;
+ top: 10px;
+ left: 5px;
+ font-size: 25px;
+}
+.tap{
+  position: relative;
+  top: 5px;
+  left: 5px;
+  font-size: 20px;
+ }
+ .navbar-nav {
+  padding-right: 15px;
+ }
+.navbar .nav-icon {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size:  30px;
+  color: white;
+}
+li a{
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar .nav-icons {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 50px;
+  color: black;
+  position: relative;
+  top: 5px;
+}
+.navbar .nav-ico {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  color: black;
+  position: relative;
+  top: 12px;
+  right: 33px;
+  
+}
+.sidebar .nav-icon {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 30px;
+  color: white;
+  position: relative;
+  top: 6px;
+  right: 10px;
+}
+ 
+.right-tap{
+  font-size: 13px;
+  padding-bottom: 80px;
+}
+.right-ta{
+  position: relative;
+  top: 20px;
+  right: 20px;
+}
+.para{
+  padding-left: 200px;
+  position: relative;
+  top:10px;
+  font-size: 120px;
+  font-weight: bold;
+}
+.navbar-right{
+  display: flex;
+  justify-content: space-around;
+  padding-right: 30px;
+  padding-top: 25px;
+}
+.navbar-left{
+  padding-left:250px;
+  padding-bottom: 20px;
+}
+span{
+  color: grey;
+  font-size: 14px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+.image{
+  width: 45px;
+  height:45px;
+  border-radius: 50%;
+  position: relative;
+  top: 3px;
+  right: 10px;
+  
+}
+
+/* Sidebar */
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  background-color:#093545;
+  color: white;
+  z-index: 10;
+  position: relative;
+  bottom: 70px;
+}
+.setting{
+position: relative;
+left: 16px;
+}
+.sidebar .nav-ican {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 30px;
+  color: white;
+  position: relative;
+  top: 2px;
+  left: 35px;
+  z-index: 20;
+}
+.dropdowns{
+  background-color: #093545;
+  color: white;
+  border: none ;
+  outline: none; 
+ 
+}
+option{
+  border: none ;
+  outline: none; 
+}
+
+label {
+  color: white;
+  margin-bottom: 5px;
+  display: block;
+}
+.param{
+  padding-left: 20px;
+
+}
+.sidebar-top{
+  position: relative;
+  top: 80px;
+  right:50px;
+  font-size: 20px;
+}
+.hach{
+  position: relative;
+  bottom: 40px;
+  left: 68px;
+}
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+}
+
+.sidebar a:hover {
+  background-color: #20DF7F;
+}
+
+@media screen and (min-width: 900px) {
+  h1{
+    display: none;
+  }
+}
+
