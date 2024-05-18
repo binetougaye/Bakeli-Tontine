@@ -1,15 +1,15 @@
 .navbar {
-  display: flex;
+  /* display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: center; */
   background-color:white;
   box-shadow: 1px 1px 2px rgb(147, 141, 141);
   height: 70px;
   color: black;
   font-family: Arial, Helvetica, sans-serif;
-  z-index: 1;
+  /* z-index: 1; */
 }
-.top{
+/* .top{
  position: relative;
  top: 10px;
  left: 5px;
@@ -20,7 +20,7 @@
   top: 5px;
   left: 5px;
   font-size: 20px;
- }
+ } */
  .navbar-nav {
   padding-right: 15px;
  }
@@ -45,8 +45,8 @@ li a{
   cursor: pointer;
   font-size: 50px;
   color: black;
-  position: relative;
-  top: 5px;
+  /* position: relative; */
+  /* top: 5px; */
 }
 .navbar .nav-ico {
   background: none;
@@ -72,7 +72,7 @@ li a{
  
 .right-tap{
   font-size: 13px;
-  padding-bottom: 80px;
+  /* padding-bottom: 80px; */
 }
 .right-ta{
   position: relative;
@@ -80,21 +80,21 @@ li a{
   right: 20px;
 }
 .para{
-  padding-left: 200px;
-  position: relative;
+  /* padding-left: 200px; */
+  /* position: relative; */
   top:10px;
-  font-size: 120px;
+  /* font-size: 120px; */
   font-weight: bold;
 }
-.navbar-right{
+/* .navbar-right{
   display: flex;
   justify-content: space-around;
   padding-right: 30px;
   padding-top: 25px;
-}
+} */
 .navbar-left{
-  padding-left:250px;
-  padding-bottom: 20px;
+  /* padding-left:250px; */
+  /* padding-bottom: 20px; */
 }
 span{
   color: grey;
@@ -113,17 +113,14 @@ span{
 
 /* Sidebar */
 .sidebar {
-  width: 250px;
-  height: 100vh;
+  height: 160vh;
   background-color:#093545;
   color: white;
-  z-index: 10;
-  position: relative;
-  bottom: 70px;
+
 }
 .setting{
-position: relative;
-left: 16px;
+/* position: relative; */
+/* left: 16px; */
 }
 .sidebar .nav-ican {
   background: none;
@@ -131,7 +128,7 @@ left: 16px;
   cursor: pointer;
   font-size: 30px;
   color: white;
-  position: relative;
+  /* position: relative; */
   top: 2px;
   left: 35px;
   z-index: 20;
@@ -154,10 +151,10 @@ label {
   display: block;
 }
 .param{
-  padding-left: 20px;
+  /* padding-left: 20px; */
 
 }
-.sidebar-top{
+/* .sidebar-top{
   position: relative;
   top: 80px;
   right:50px;
@@ -167,7 +164,7 @@ label {
   position: relative;
   bottom: 40px;
   left: 68px;
-}
+}  */
 .sidebar ul {
   list-style: none;
   padding: 0;
@@ -184,9 +181,4 @@ label {
   background-color: #20DF7F;
 }
 
-@media screen and (min-width: 900px) {
-  h1{
-    display: none;
-  }
-}
 
