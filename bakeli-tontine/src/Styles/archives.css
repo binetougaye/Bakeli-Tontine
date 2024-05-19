@@ -1,0 +1,21 @@
+table {
+    width: 50%;
+}
+
+.entete th {
+    background-color: #20DF7F;
+}
+
+tbody td {
+    /* color: grey; */
+    font-weight: 300;
+}
+
+
+h1 {
+    background-color: rgb(207, 199, 199);
+    padding: 2%;
+    font-weight: lighter;
+}
+
+/* #20DF7F */

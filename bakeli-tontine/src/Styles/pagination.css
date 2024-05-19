@@ -1,0 +1,37 @@
+h1 {
+    background-color: rgb(207, 199, 199);
+    padding: 2%;
+    font-weight: lighter;
+}
+
+ul li {
+    padding: 0 7px;
+    color: black;
+}
+
+nav .previous {
+    background-color: white;
+    border: none;
+    color: grey;
+    font-size: 13px;
+}
+
+ul .previous a {
+    background-color: white;
+    border: none;
+}
+
+ul li a {
+    color: black;
+}
+
+.un {
+    background-color: #20DF7F;
+    border-radius: 50%;
+    width: 23px;
+    height: 23px;
+}
+
+.next {
+    font-size: 13px;
+}
