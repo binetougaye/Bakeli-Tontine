@@ -9,7 +9,10 @@ import Table2 from "./DashboardComponents/Table2";
 import { Datas } from "./DashboardComponents/TableData";
 import Cards from "./DashboardComponents/Cards";
 import Navbar from "./Navigation/Navbar";
+// Cotisation
 import Cotisation from "./Component/Cotisation";
+// Utilisateurs
+import ContentCard from "./components/ContentCard";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 // import Sidebar from "./Navigation/Sidebar";
@@ -100,6 +103,21 @@ function App() {
               </div>
             }
           />
+          <Route path="/utilisateurs" element={  <div className="container-fluid">
+                <div className="row">
+                  <div className="col-lg-2 p-0">
+                    <Sidebar />
+                  </div>
+                  <div className="col-lg-10">
+                    <div className="row">
+                      <Navbar />
+                    </div>
+                    <div className="row">
+                      <ContentCard />
+                    </div>
+                  </div>
+                </div>
+              </div>}/>
         </Routes>
       </Router>
     </div>
