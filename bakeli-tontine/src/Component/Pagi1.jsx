@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Pagi1.css';
 import { Modal, Table } from 'react-bootstrap'; 
-import Vector from '../assets/Vector.png';
+// import Vector from '../assets/Vector.png';
 import Pagination from './Pagination';
 const Pagi1 = () => {
   const [showModal, setShowModal] = useState(false); 
@@ -61,7 +61,7 @@ const Pagi1 = () => {
                             <td>{member.cotisation}</td>
                             <td style={{color:'lime'}}>{member.statut}</td>
                             <td>
-                                <img src={Vector} alt="foto" onClick={() => openModal(member)} style={{ cursor: 'pointer' }} />
+                                {/* <img src={Vector} alt="foto" onClick={() => openModal(member)} style={{ cursor: 'pointer' }} /> */}
                             </td>
                         </tr>
                     ))}
