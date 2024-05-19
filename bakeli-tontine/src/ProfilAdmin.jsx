@@ -2,10 +2,11 @@ import React, { useState } from 'react';
 
 import './Profil.css'
 import { Link } from 'react-router-dom';
+ import Buton from './buton';
 
-const ProfilAdmin = ({ profil, personne, admin, img, buton }) => {
+const ProfilAdmin = ({ profil, personne, admin, img,  }) => {
   const tableau = [
-    { prenom: "faby", nom: "Gaye", statut: "admin", email: "gayefaby32@gmail.com" }
+    { prenom: "Ndiaga", nom: "Sall", statut: "administrateur", email: "ndiaga@gmail.com" }
   ]
     
     const array = [
@@ -19,34 +20,37 @@ const ProfilAdmin = ({ profil, personne, admin, img, buton }) => {
     <div className='container'>
 
       <div className='profil'>
-        {/* <h2>{}</h2> */}
+        
         <p className='titre'>{profil}</p>
         <img className='img' src={img} alt="" />
-        <p>{personne} </p>
-        <p>{admin}</p>
-        <Link to="/editAdmin"><button className='editer'>{buton}</button></Link>
+       
+        <p className='font m-0'>{personne} </p>
+        <p className=''>{admin}</p>
+       
+        <Link to="/editAdmin"><Buton button="Editer"/></Link>
+        
       </div>
       <div className='bordure'>
       </div>
       <div>
         <div>
-          <p className='info'>Information general</p>
+          <p className='info ps-3'>Information general</p>
           <table class="table">
             <thead>
               {/* <tr className='d-flex flex-column'> */}
-              <tr className='d-flex justify-content-between'>
+              <tr className='d-flex justify-content-between groupeInput'>
                 <th scope="col">Prenom</th>
-                <td>{tableau[0].prenom}</td>
+                 <td className='ps-3'>{tableau[0].prenom}</td> 
               </tr>
-              <tr className='d-flex justify-content-between'>
+              <tr className='d-flex justify-content-between groupeInput'>
                 <th scope="col">Nom</th>
                 <td>{tableau[0].nom}</td>
               </tr>
-              <tr className='d-flex justify-content-between'>
+              <tr className='d-flex justify-content-between groupeInput'>
                 <th scope="col">Statut</th>
                 <td>{tableau[0].statut}</td>
               </tr>
-              <tr className='d-flex justify-content-between'>
+              <tr className='d-flex justify-content-between groupeInput'>
                 <th scope="col">Email</th>
                 <td>{tableau[0].email}</td>
               </tr>
@@ -65,19 +69,19 @@ const ProfilAdmin = ({ profil, personne, admin, img, buton }) => {
           </table>
         </div>
         <div>
-          <p className='info'>Statistique</p>
+          <p className='info ps-3'>Statistique</p>
           <table class="table">
             <thead>
               {/* <tr className='d-flex flex-column'> */}
-              <tr className='d-flex justify-content-between'>
+              <tr className='d-flex justify-content-between groupeInput'>
                 <th scope="col">Nombre de membre ajoutés</th>
                 <td>{array[0].nombre1}</td>
               </tr>
-              <tr className='d-flex justify-content-between'>
+              <tr className='d-flex justify-content-between groupeInput'>
                 <th scope="col">Nombre de membre archivés</th>
                 <td>{array[0].nombre2}</td>
               </tr>
-              <tr className='d-flex justify-content-between'>
+              <tr className='d-flex justify-content-between groupeInput'>
                 <th scope="col">Nombre de membre bloqués</th>
                 <td>{array[0].nombre3}</td>
               </tr>

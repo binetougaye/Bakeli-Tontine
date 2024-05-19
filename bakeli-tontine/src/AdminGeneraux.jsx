@@ -9,6 +9,7 @@ export const AdminGeneraux = () => {
 
   return (
     <div>
+      <h3 className='pt-5 fs-18  para'>Parametre Generaux</h3>
 
       <BrowserRouter>
         <Routes>
