@@ -12,12 +12,14 @@ import "bootstrap/dist/js/bootstrap.bundle.min.js";
 function Sidebar() {
   const navigate = useNavigate();
   const handleNavigation = (e) => {
-    const value = e.target.value
-    if(value){
+    const value = e.target.value;
+    if (value) {
       navigate(value);
     }
-  
   };
+  const handleUsers = ()=>{
+    navigate("/utilisateurs")
+  }
 
   return (
     <aside className="sidebar">
@@ -33,7 +35,7 @@ function Sidebar() {
             </a>
           </li>
           <li>
-            <a href="#">
+            <a onClick={handleUsers}>
               <FiUser className="nav-icon" />
               Utilisateurs
             </a>
@@ -46,12 +48,16 @@ function Sidebar() {
           </li>
           <li className="setting">
             <IoSettingsOutline className="nav-icon" />
-            <select onChange={handleNavigation} id="custom-dropdown" className="dropdowns text-center">
+            <select
+              onChange={handleNavigation}
+              id="custom-dropdown"
+              className="dropdowns text-center"
+            >
               <option disabled selected hidden>
                 Paramètres
               </option>
               <option value="1">Paramètres Généraux</option>
-              <option value="2">Utilisateurs</option>
+              <option value="">Utilisateurs</option>
               <option value="/archives">Archives</option>
               <option value="/MembresBloqués">Membres Bloqués</option>
             </select>

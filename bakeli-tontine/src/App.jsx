@@ -12,13 +12,12 @@ import Navbar from "./Navigation/Navbar";
 // Cotisation
 import Cotisation from "./Component/Cotisation";
 // Utilisateurs
-import ContentCard from "./components/ContentCard";
-//
+import FirstCard from "./components/FirstCard";
+// ARCHIVES & MEMBRES BLOQUES
 import Archives from "./components/Archives";
 import BlockedUser from "./components/BlockedUser";
-import Pagination from "./components/Pagination";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 // import Sidebar from "./Navigation/Sidebar";
 import "./Navigation/Navigation.css";
 import Sidebar from "./Navigation/Sidebar";
@@ -120,7 +119,7 @@ function App() {
                       <Navbar />
                     </div>
                     <div className="row">
-                      <ContentCard />
+                      <FirstCard />
                     </div>
                   </div>
                 </div>
@@ -164,12 +163,26 @@ function App() {
                     <div className="row">
                       <BlockedUser />
                     </div>
-                  
                   </div>
                 </div>
               </div>
             }
           />
+          <Route path="/utilisateurs" element={ <div className="container-fluid">
+                <div className="row">
+                  <div className="col-lg-2 p-0">
+                    <Sidebar />
+                  </div>
+                  <div className="col-lg-10">
+                    <div className="row">
+                      <Navbar />
+                    </div>
+                    <div className="row">
+                      <FirstCard/>
+                    </div>
+                  </div>
+                </div>
+              </div>}/>
         </Routes>
       </Router>
     </div>
