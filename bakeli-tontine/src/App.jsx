@@ -9,6 +9,7 @@ import Table2 from "./DashboardComponents/Table2";
 import { Datas } from "./DashboardComponents/TableData";
 import Cards from "./DashboardComponents/Cards";
 import Navbar from "./Navigation/Navbar";
+import Cotisation from "./Component/Cotisation";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 // import Sidebar from "./Navigation/Sidebar";
@@ -73,6 +74,26 @@ function App() {
                           datas={Datas}
                         />
                       </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            }
+          />
+          <Route
+            path="/Cotisation"
+            element={
+              <div className="container-fluid">
+                <div className="row">
+                  <div className="col-lg-2 p-0">
+                    <Sidebar />
+                  </div>
+                  <div className="col-lg-10">
+                    <div className="row">
+                      <Navbar />
+                    </div>
+                    <div className="row">
+                      <Cotisation />
                     </div>
                   </div>
                 </div>

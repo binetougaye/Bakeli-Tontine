@@ -5,21 +5,25 @@ import "./Navigation.css";
 import health from "./healthicons_money-bag-outline.svg";
 import vector from "./fontisto_wallet.png";
 // import { IoSettingsOutline } from "react-icons/io5";
-
+import { useNavigate } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 
 function Sidebar() {
+  const navigate = useNavigate();
+  const handleNavigation = () => {
+    navigate("/Cotisation");
+  };
+
   return (
     <aside className="sidebar">
       <div className="sidebar-top">
         <h3 className="hach">
-          <img src={vector} alt="" /> Bakéli Tontine
+          <img src={vector} alt="Wallet Icon" /> Bakéli Tontine
         </h3>
         <ul>
           <li>
             <a href="#">
-              {" "}
               {/* <RxDashboard className="nav-icon" /> */}
               Dashboard
             </a>
@@ -31,23 +35,21 @@ function Sidebar() {
             </a>
           </li>
           <li>
-            <a href="#">
-              {" "}
-              <img src={health} alt="" className="nav-icon" />
+            <a onClick={handleNavigation}>
+              <img src={health} alt="Money Bag Icon" className="nav-icon" />
               Cotisations
             </a>
           </li>
-
           <li className="setting">
-            {/* <IoSettingsOutline className="nav-ican" /> */}
-            <select id="custom-dropdown" className="dropdowns text-center ">
+            {/* <IoSettingsOutline className="nav-icon" /> */}
+            <select id="custom-dropdown" className="dropdowns text-center">
               <option disabled selected hidden>
-                <a href="">Paramètres</a>
+                Paramètres
               </option>
               <option value="1">Paramètres Généraux</option>
               <option value="2">Utilisateurs</option>
               <option value="3">Archives</option>
-              <option value="4">Membres Bloquès</option>
+              <option value="4">Membres Bloqués</option>
             </select>
           </li>
         </ul>
@@ -55,4 +57,5 @@ function Sidebar() {
     </aside>
   );
 }
+
 export default Sidebar;
