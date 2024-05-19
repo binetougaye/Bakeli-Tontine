@@ -1,22 +1,30 @@
 .pagicontain {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  margin: 0 5px;
+  padding: 4px ;
+  background-color: '#20DF7F';
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  width: 1px;
+  height: 1px;
+  background-color: #f9f9f9;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e0e0e0;
+}
+.table thead .entete th{
+  background-color:#093545 ;
+  padding: 16px;
+  position: relative;
+  top: 10px;
+  height: 56px;
+  color: #fff;
   
-  button {
-    margin: 0 5px;
-    padding: 4px ;
-    background-color: '#20DF7F';
-    border: 1px solid #ccc;
-    border-radius: 50%;
-    width: 1px;
-    height: 1px;
-    background-color: #f9f9f9;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: #e0e0e0;
-  }
-  
+}
