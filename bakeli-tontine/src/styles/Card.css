@@ -1,0 +1,467 @@
+
+body {
+    background-color: #D2D2D2;
+  }
+  
+  .card {
+    background-color: #20DF7F;
+    width: 338px;
+    height: 150px;
+    border-radius: 10px;
+    color: white;
+    border: none;
+  }
+  
+  .ban1 {
+    font-size: 21px;
+    color: red;
+  }
+  
+  .card2:hover {
+    background-color: #20DF7F;
+  }
+  
+  .modal-content {
+    height: 520px;
+    width: 600px;
+  }
+  
+  .card:focus {
+    background-color: white;
+    color: #093545;
+  }
+  
+  
+  .card2 {
+    width: 280px;
+    height: 120px;
+    border-radius: 6px;
+  }
+  
+  .card-h5 {
+    color: #093545;
+    font-size: 19px;
+  
+  }
+  
+  .h5 {
+    font-size: 19px;
+    font-weight: 400;
+  }
+  
+  .h4 {
+    position: relative;
+    bottom: 10px;
+  }
+  
+  .card-h4 {
+    color: #093545;
+    position: relative;
+    bottom: 10px;
+  
+  }
+  
+  .form-label {
+    font-size:21px;
+    color: rgba(23, 20, 20, 0.779);
+    font-weight: bold;
+  }
+  
+  .form-control {
+    border: 1px solid rgb(43, 86, 102);
+    height: 45px;
+    width:320px;
+  }
+  
+  .icône {
+    font-size: 17px;
+  }
+  
+  .add {
+    width: 410px;
+    font-size: 25px;
+    height: 66px;
+    color: #093545;
+    background-color: #20DF7F;
+    border: none;
+    border-radius: 15px;
+    font-weight: bold;
+    position: relative;
+    bottom: 60px;
+  }
+  
+  .add2 {
+    background-color: #093545;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    width: 140px;
+    position: relative;
+    right: 260px;
+    top: 13px;
+    font-size: 20px;
+    padding: 11px;
+  
+  
+  }
+  
+  
+  
+  
+  .lol {
+    position: relative;
+    bottom: 10px;
+  }
+  
+  .non {
+    margin: 0 auto;
+    width: fit-content;
+    width: 70%;
+    padding: 14px;
+    border-radius: 6px;
+    background-color: #20DF7F;
+  
+  }
+  
+  tbody {
+    position: relative;
+    top: 6px;
+    height: 300px;
+  }
+  
+  table {
+    margin: 0 auto;
+    width: 69%;
+    height: 300px;
+  
+  }
+  
+  thead {
+    background-color: #20DF7F;
+    height: 70px;
+  
+  }
+  
+  td {
+    color: #093545;
+    font-size: 13px;
+  }
+  
+  th {
+    color: #093545;
+  }
+  
+  .progress {
+    height: 5px;
+    width: 130px;
+    position: relative;
+    bottom: 2px;
+  
+  }
+  
+  span {
+    position: relative;
+    bottom: 7px;
+  }
+  
+  .progress-bar {
+    background-color: #20DF7F;
+  
+  }
+  
+  .progress-bar1 {
+    background-color: #093545;
+  
+  }
+  .progress-bar2 {
+    background-color: #093545;
+  }
+  
+  .progress-bar3 {
+    background-color: #093545;
+  }
+  
+  
+  .modal-header {
+    background-color: #20DF7F;
+    width: 100%;
+  }
+  
+  .h3 {
+    color: #093545;
+  }
+  
+  .span {
+    position: relative;
+    left: 51px;
+  }
+  
+  .modal-body thead {
+    background-color: #093545;
+    height: 10px;
+  }
+  
+  .modal-body th {
+    color: white;
+  
+  }
+  
+  .modal-body table {
+    width: 547px;
+    position: relative;
+    top: 2px;
+  }
+  
+  .tr {
+    background-color: #D2D2D2;
+  }
+  
+  
+  .tr1 {
+    background-color: #D2D2D2;
+    position: relative;
+    top: 4px;
+  }
+  
+  .tr2 {
+    background-color: #D2D2D2;
+    position: relative;
+    top: 8px;
+  }
+  
+  .tr3 {
+    background-color: #D2D2D2;
+    position: relative;
+    top: 12px;
+  }
+  
+  .tr4 {
+    background-color: #D2D2D2;
+    position: relative;
+    top: 16px;
+  }
+  
+  .tr5 {
+    background-color: #D2D2D2;
+    position: relative;
+    top: 20px;
+  }
+  
+  .tr6 {
+    background-color: #D2D2D2;
+    position: relative;
+    top: 24px;
+  }
+  
+  .bef {
+    width: 6px;
+    height: 120px;
+    background-color: #D2D2D2;
+    position: relative;
+    bottom: 340px;
+    left: 8px;
+  }
+  
+  
+  .modal-content {
+    height: 620px;
+  }
+  
+  .total {
+    position: relative;
+    right: 25px;
+    bottom: 80px;
+    color: #20DF7F;
+  }
+  
+  .total2 {
+    position: relative;
+    right: 25px;
+    bottom: 90px;
+    color: #093545;
+  }
+  
+  .file:hover {
+    color: red;
+  }
+  
+  .arrow-file:hover {
+    color: #20DF7F;
+  
+  }
+  
+  .file,
+  .arrow-file {
+    position: relative;
+    bottom: 3px;
+    color: black;
+    font-size: 21px;
+  
+  }
+  
+  .icon {
+    position: relative;
+    left: 30px;
+  }
+  
+  .eye {
+    font-size: 21px;
+  }
+  
+  .statut1,
+  .statut3 {
+    color: #20DF7F;
+    font-size: 19px;
+    font-weight: bold;
+    position: relative;
+    bottom: 10px;
+    left: 20px;
+  
+  
+  }
+  
+  .statut2,
+  .statut4,
+  .statut5,
+  .statut6 {
+    color: hwb(217 26% 65%);
+    font-size: 19px;
+    font-weight: bold;
+    position: relative;
+    bottom: 10px;
+    left: 20px;
+  
+  
+  }
+  
+  .th1 {
+    font-size: 21px;
+    color: #093545;
+  }
+  
+  .td1 {
+    font-size: 18px;
+    color: #093545;
+    padding: 12px;
+  
+  }
+  
+  .statut7 {
+    font-size: 18px;
+    position: relative;
+    left: 20px;
+    color: red;
+  }
+  
+  .file2 {
+    position: relative;
+    top: 4px;
+    color: rgb(247, 80, 80);
+    font-size: 21px;
+    right: 48px;
+  
+  }
+  
+  .tabla {
+    width: 800px;
+    height: 400px;
+  }
+  
+  .tabla1 {
+    width: 1000px;
+  }
+  
+  .eye1 {
+    font-size: 21px;
+    position: relative;
+    top: 5px;
+    right: 50px;
+  }
+  
+  .fa-regular {
+    color: black;
+    position: relative;
+    bottom: 2px;
+  
+  
+  
+  }
+  
+  .statut8,
+  .statut9 {
+    font-size: 18px;
+    position: relative;
+    bottom: 10px;
+  }
+  
+  .statut8 {
+    color: #20DF7F;
+    font-weight: bold;
+  }
+  
+  .pro {
+    position: relative;
+    bottom: 12px;
+  }
+  
+  .page {
+    position: relative;
+    right: 20px;
+  }
+  
+  .page-item1 {
+    background-color: #20DF7F;
+    color: black;
+    font-weight: bold;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    text-align: center;
+  }
+  
+  .page-item {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    text-align: center;
+  }
+  .dialog{
+    width:885px;
+    line-height: 50px;
+    border-radius: 15px;
+    /* padding: 20px; */
+    position: relative;
+    right: 200px;
+    height: 760px;
+  }
+  .modal-h2{
+    font-size: 40px;
+    color:#093545;
+    position: relative;
+    bottom: 30px;
+  }
+  form{
+    position: relative;
+    bottom: 30px;
+  }
+  .form{
+    position: relative;
+    left: 70px;
+  }
+  
+  .form1 {
+    position: relative;
+    left: 70px;
+  
+  }
+  .adresse{
+    position: relative;
+    bottom: 10px;
+  }
+  
+  
+  
+  

@@ -39,7 +39,7 @@ const ContentCard = ({ th1, th2, th3, th4, th5, th6, tableau }) => {
                                     <span>{item.progression4}</span>
                                     <span>{item.progression5}</span>
                                     <span>{item.progression6}</span>
-                                </div>
+                                </div> :
                             </td>
                             <td>
                                 <div className="statut1">{item.statut1}</div>
