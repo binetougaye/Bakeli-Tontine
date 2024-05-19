@@ -13,6 +13,10 @@ import Navbar from "./Navigation/Navbar";
 import Cotisation from "./Component/Cotisation";
 // Utilisateurs
 import ContentCard from "./components/ContentCard";
+//
+import Archives from "./components/Archives";
+import BlockedUser from "./components/BlockedUser";
+import Pagination from "./components/Pagination";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 // import Sidebar from "./Navigation/Sidebar";
@@ -103,7 +107,10 @@ function App() {
               </div>
             }
           />
-          <Route path="/utilisateurs" element={  <div className="container-fluid">
+          <Route
+            path="/utilisateurs"
+            element={
+              <div className="container-fluid">
                 <div className="row">
                   <div className="col-lg-2 p-0">
                     <Sidebar />
@@ -117,7 +124,52 @@ function App() {
                     </div>
                   </div>
                 </div>
-              </div>}/>
+              </div>
+            }
+          />
+          {/*  */}
+
+          <Route
+            path="/archives"
+            element={
+              <div className="container-fluid">
+                <div className="row">
+                  <div className="col-lg-2 p-0">
+                    <Sidebar />
+                  </div>
+                  <div className="col-lg-10">
+                    <div className="row">
+                      <Navbar />
+                    </div>
+                    <div className="row">
+                      <Archives />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            }
+          />
+          <Route
+            path="/MembresBloqués"
+            element={
+              <div className="container-fluid">
+                <div className="row">
+                  <div className="col-lg-2 p-0">
+                    <Sidebar />
+                  </div>
+                  <div className="col-lg-10">
+                    <div className="row">
+                      <Navbar />
+                    </div>
+                    <div className="row">
+                      <BlockedUser />
+                    </div>
+                  
+                  </div>
+                </div>
+              </div>
+            }
+          />
         </Routes>
       </Router>
     </div>

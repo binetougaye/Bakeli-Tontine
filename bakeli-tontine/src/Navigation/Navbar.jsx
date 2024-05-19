@@ -3,7 +3,7 @@ import "./Navigation.css";
 import images from "./imagess.png";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import "bootstrap/dist/css/bootstrap.min.css";
-// import { GrNotification } from "react-icons/gr";
+import { GrNotification } from "react-icons/gr";
 
 function Navbar() {
   return (
@@ -26,7 +26,7 @@ function Navbar() {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0 position-absolute end-0">
             <li className="nav-item">
-              {/* <GrNotification className="nav-ico" /> */}
+              <GrNotification className="nav-ico" />
             </li>
             <li className="nav-item">
               <img className="image" src={images} alt="imagess" />
