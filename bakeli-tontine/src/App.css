@@ -85,8 +85,8 @@ table th{
   color: #093545
 }
 
-.card-text h5 {
-  color: #093545;
+.card-texte h5 {
+  color: #093545 !important;
 
 }
 
@@ -95,7 +95,7 @@ table th{
   font-size: 18px;
 }
 
-.card-body h6 {
+.card-bodyy h6 {
   color: #807D9B !important;
 }
 

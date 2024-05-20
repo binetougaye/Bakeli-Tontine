@@ -8,7 +8,7 @@ import { GrNotification } from "react-icons/gr";
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <div className="container">
+      <div className="container-fluid">
         <h1 className="navbar-brand para" href="#">
           Paramètres
         </h1>

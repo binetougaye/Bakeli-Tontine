@@ -2,7 +2,7 @@ body {
   background-color: #D2D2D2;
 }
 
-.card {
+.cartess {
   background-color: #20DF7F;
   width: 338px;
   height: 150px;
@@ -100,6 +100,7 @@ body {
   top: 13px;
   font-size: 20px;
   padding: 11px;
+  height: 55px;
 
 
 }
@@ -135,7 +136,7 @@ table {
 
 }
 
-thead {
+.thead {
   background-color: #20DF7F;
   height: 70px;
 
@@ -433,7 +434,7 @@ span {
   width: 885px;
   line-height: 50px;
   border-radius: 15px;
-  /* padding: 20px; */
+
   position: relative;
   right: 200px;
   height: 760px;

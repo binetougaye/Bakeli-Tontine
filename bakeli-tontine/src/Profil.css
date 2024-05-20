@@ -1,0 +1,119 @@
+.img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    /* border: 4px solid rgb(109, 247, 180); */
+}
+
+.titre {
+    color: rgb(70, 68, 68);
+}
+
+.profil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+
+
+}
+
+.editer {
+    background-color: #093545;
+    border-radius: 6px;
+    width: 150px;
+    color: white;
+    height:40px;
+}
+
+.container {
+    background-color: white;
+    padding-top: 20px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    width: 1000px;
+}
+
+.bordure {
+    border-right: 1px solid black;
+    height: 500px;
+    margin: 20px;
+}
+
+.classement {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.color {
+    border-bottom: 1px solid #093545;
+    width: 550px;
+}
+
+.info {
+    background-color: #20DF7F;
+
+    height: 30px;
+    margin-top: 20px;
+    width: 560px;
+}
+
+.jour {
+    border-radius: 6px;
+    width: 100px;
+    height: 50px;
+
+}
+
+.fa-camera {
+    background-color: #20DF7F;
+    color: white;
+    font-size: 10px;
+    border-radius: 50%;
+    padding: 5px;
+    position: relative;
+    bottom: 10px;
+    left: 20px;
+}
+
+.form-control {
+    width: 420px;
+    height: 30px;
+    padding: 20px;
+    /* border: 1px solid red; */
+
+}
+
+.nom {
+    width: 210px;
+    display: flex;
+    gap: 2px;
+}
+
+.font {
+    font-weight: bolder;
+}
+
+.para {
+    position: relative;
+    left: 140px;
+}
+
+/* @media screen and (max-width:768px) {
+    .groupeInput  {
+        display:flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .info{
+        width: 100%;
+    }
+    .container{
+        display: flex;
+    width: 250p;
+    justify-content: center;
+    align-items: center;
+    }
+} 

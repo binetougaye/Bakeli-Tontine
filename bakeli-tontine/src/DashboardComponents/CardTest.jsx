@@ -10,8 +10,11 @@ export default function CardTest() {
         </div>
         <div className="card-body">
           <h5 className="card-title text-dark">Caisse</h5>
-          <p className="card-text">
-            <span className="fw-bold span">3.500.000 FCFA </span> <span className="span2 fw-bold">/ 5.000.000 FCFA</span> 
+          <p className="card-text  card-texte">
+            <span className="fw-bold span">
+              3.500.000 FCFA
+            </span>
+            <span className="span2 fw-bold">/ 5.000.000 FCFA</span>
           </p>
           <div className="progress">
             <div

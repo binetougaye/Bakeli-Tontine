@@ -17,9 +17,9 @@ function Sidebar() {
       navigate(value);
     }
   };
-  const handleUsers = ()=>{
-    navigate("/utilisateurs")
-  }
+  const handleUsers = () => {
+    navigate("/utilisateurs");
+  };
 
   return (
     <aside className="sidebar">
@@ -41,7 +41,7 @@ function Sidebar() {
             </a>
           </li>
           <li>
-            <a onClick={handleNavigation}>
+            <a>
               <img src={health} alt="Money Bag Icon" className="nav-icon" />
               Cotisations
             </a>
@@ -56,7 +56,7 @@ function Sidebar() {
               <option disabled selected hidden>
                 Paramètres
               </option>
-              <option value="1">Paramètres Généraux</option>
+              <option value="/admin">Paramètres Généraux</option>
               <option value="">Utilisateurs</option>
               <option value="/archives">Archives</option>
               <option value="/MembresBloqués">Membres Bloqués</option>
