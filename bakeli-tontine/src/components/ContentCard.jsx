@@ -3,8 +3,8 @@ import Icons from "./Icons";
 const ContentCard = ({ th1, th2, th3, th4, th5, th6, tableau }) => {
 
     return (<div>
-        <table>
-            <thead className="shadow">
+        <table className="tab">
+            <thead  className="shadow téte">
                 <tr>
                     <th className=" p-4  th1" scope="col">{th1}</th>
                     <th className=" p-4  th1" scope="col">{th2}</th>

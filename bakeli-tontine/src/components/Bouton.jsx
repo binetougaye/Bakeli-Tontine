@@ -24,48 +24,48 @@ const Bouton = ({ bouton, bouton2, icon3, addmember }) => {
 
                                 <Input
                                     name="Nom"
-                                    input={<input type="text" className="form-control" required />}
+                                    input={<input type="text" className="form-control word" required />}
                                 />
 
                                 <Input
                                     born="Date de naissance"
-                                    input={<input type="date" className="form-control" required />}
+                                    input={<input type="date" className="form-control word" required />}
                                 />
                             </div>
 
                             <div className="col-md-6 ">
                                 <Input
                                     firstname="Prenom"
-                                    input={<input type="text" className="form-control" required />}
+                                    input={<input type="text" className="form-control word" required />}
                                 />
 
                                 <Input
                                     job="Profession"
-                                    input={<input type="text" className="form-control" required />}
+                                    input={<input type="text" className="form-control word" required />}
                                 />
                             </div>
 
                             <div className="col-md-6 form1 ">
                                 <Input
                                     mail="Email"
-                                    input={<input type="mail" className="form-control" required />}
+                                    input={<input type="mail" className="form-control word" required />}
                                 />
 
                                 <Input
                                     phone="Télèphone"
-                                    input={<input type="text" className="form-control" required />}
+                                    input={<input type="text" className="form-control word" required />}
                                 />
 
                             </div>
                             <div className="col-md-6 ">
                                 <Input
                                     adress="Adresse" 
-                                    input={<input type="text" className="form-control" required />}
+                                    input={<input type="text" className="form-control word" required />}
                                 />
 
                                 <Input
                                     organisation="Organisations"
-                                    input={<input type="text" className="form-control mb-2" required />}
+                                    input={<input type="text" className="form-control word mb-2" required />}
                                 />
                             </div>
                         </form>

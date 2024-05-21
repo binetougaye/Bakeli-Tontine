@@ -7,21 +7,21 @@ const Icons = ({ icon, icon2, icon3, icon4, icon5, icon6, icon7, icon8 }) => {
             <i>{icon4}</i>
 
             <div className="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div className="modal-dialog">
-                    <div className="modal-content">
+                <div className="modal-dialog ">
+                    <div className="modal-content content">
                         <div className="modal-header">
                             <h5 className="modal-title p-2" id="exampleModalLabel">Détails Cotisations</h5>
                         </div>
-                        <div class="modal-body">
+                        <div class="modal-body mod">
                             <h5 className="fs-5 fw-bold p-2 roy">Selene Roy</h5>
-                            <span className="span">Designer</span>
+                            <span className="des">Designer</span>
 
-                            <table className="table-striped text-center">
-                                <thead >
+                            <table className="table-striped text-center tablea">
+                                <thead className="cabeza">
                                     <tr>
-                                        <th className="fs-5 p-2" scope="col">Mois</th>
-                                        <th className="fs-5" scope="col">Date </th>
-                                        <th className="fs-5" scope="col">Montant</th>
+                                        <th className="fs-5 p-2 month" scope="col">Mois</th>
+                                        <th className="fs-5 month" scope="col">Date </th>
+                                        <th className="fs-5 month" scope="col">Montant</th>
 
 
                                     </tr>
