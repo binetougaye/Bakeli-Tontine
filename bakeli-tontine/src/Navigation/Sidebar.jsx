@@ -24,9 +24,10 @@ function Sidebar() {
   return (
     <aside className="sidebar">
       <div className="sidebar-top">
-        <h3 className="hach">
+        <h5 className="hach">
           <img src={vector} alt="Wallet Icon" /> Bakéli Tontine
-        </h3>
+        </h5>
+        <br />
         <ul>
           <li>
             <a href="#">
@@ -47,14 +48,14 @@ function Sidebar() {
             </a>
           </li>
           <li className="setting">
-            <IoSettingsOutline className="nav-icon" />
+            <IoSettingsOutline className="nav-ican" />
             <select
               onChange={handleNavigation}
               id="custom-dropdown"
               className="dropdowns text-center"
             >
               <option disabled selected hidden>
-                Paramètres
+                 Paramètres
               </option>
               <option value="/admin">Paramètres Généraux</option>
               <option value="">Utilisateurs</option>

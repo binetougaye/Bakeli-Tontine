@@ -1,26 +1,11 @@
 .navbar {
-  /* display: flex;
-  justify-content: space-between;
-  align-items: center; */
   background-color:white;
   box-shadow: 1px 1px 2px rgb(147, 141, 141);
   height: 70px;
   color: black;
   font-family: Arial, Helvetica, sans-serif;
-  /* z-index: 1; */
 }
-/* .top{
- position: relative;
- top: 10px;
- left: 5px;
- font-size: 25px;
-}
-.tap{
-  position: relative;
-  top: 5px;
-  left: 5px;
-  font-size: 20px;
- } */
+
  .navbar-nav {
   padding-right: 15px;
  }
@@ -45,8 +30,6 @@ li a{
   cursor: pointer;
   font-size: 50px;
   color: black;
-  /* position: relative; */
-  /* top: 5px; */
 }
 .navbar .nav-ico {
   background: none;
@@ -59,6 +42,9 @@ li a{
   right: 33px;
   
 }
+a{
+  color: white;
+}
 .sidebar .nav-icon {
   background: none;
   border: none;
@@ -66,13 +52,12 @@ li a{
   font-size: 30px;
   color: white;
   position: relative;
-  top: 6px;
+  top: 2px;
   right: 10px;
 }
  
 .right-tap{
   font-size: 13px;
-  /* padding-bottom: 80px; */
 }
 .right-ta{
   position: relative;
@@ -80,22 +65,10 @@ li a{
   right: 20px;
 }
 .para{
-  /* padding-left: 200px; */
-  /* position: relative; */
   top:10px;
-  /* font-size: 120px; */
   font-weight: bold;
 }
-/* .navbar-right{
-  display: flex;
-  justify-content: space-around;
-  padding-right: 30px;
-  padding-top: 25px;
-} */
-.navbar-left{
-  /* padding-left:250px; */
-  /* padding-bottom: 20px; */
-}
+
 span{
   color: grey;
   font-size: 14px;
@@ -119,8 +92,9 @@ span{
 
 }
 .setting{
-/* position: relative; */
-/* left: 16px; */
+position: relative; 
+left: 20px;
+bottom: 6px;
 }
 .sidebar .nav-ican {
   background: none;
@@ -128,9 +102,9 @@ span{
   cursor: pointer;
   font-size: 30px;
   color: white;
-  /* position: relative; */
-  top: 2px;
-  left: 35px;
+  position: relative;
+  left: 13px;
+  top: 20px;
   z-index: 20;
 }
 .dropdowns{
@@ -150,21 +124,12 @@ label {
   margin-bottom: 5px;
   display: block;
 }
-.param{
-  /* padding-left: 20px; */
 
-}
-/* .sidebar-top{
-  position: relative;
-  top: 80px;
-  right:50px;
-  font-size: 20px;
-}
 .hach{
   position: relative;
-  bottom: 40px;
-  left: 68px;
-}  */
+  left: 8px;
+  top: 4px;
+} 
 .sidebar ul {
   list-style: none;
   padding: 0;
@@ -177,8 +142,11 @@ label {
   padding: 10px;
 }
 
-.sidebar a:hover {
+.sidebar a:active {
   background-color: #20DF7F;
+}
+select{
+  border: none;
 }
 
 

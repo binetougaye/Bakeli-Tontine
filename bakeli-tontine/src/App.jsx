@@ -13,10 +13,10 @@ import Navbar from "./Navigation/Navbar";
 // Cotisation
 import Cotisation from "./Component/Cotisation";
 // Utilisateurs
-import FirstCard from "./components/FirstCard";
+import FirstCard from "./Components/FirstCard";
 // ARCHIVES & MEMBRES BLOQUES
-import Archives from "./components/Archives";
-import BlockedUser from "./components/BlockedUser";
+import Archives from "./Components/Archives";
+import BlockedUser from "./Components/BlockedUser";
 // Profil Admin
 import { AdminGeneraux } from "./AdminGeneraux";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
