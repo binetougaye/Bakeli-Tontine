@@ -22,7 +22,7 @@ const ThirdCard = ({ totalffectif, centmembre }) => {
   }
 
   return (<div>
-    <div className=" shadow bg-white card p-3" onClick={handleClick} >
+    <div className=" shadow bg-white carte2 p-3" onClick={handleClick} >
       <h5 className=" card-h5   p-2">{totalffectif}</h5>
       <h4 className=" card-h4 fs-3 p-2 fw-bold">{centmembre}</h4>
     </div>

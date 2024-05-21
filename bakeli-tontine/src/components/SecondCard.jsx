@@ -20,7 +20,7 @@ const SecondCard = ({ membresbloques, sixmembres }) => {
   }
 
   return (<div>
-    <div className=" shadow bg-white card p-3" onClick={handleClick}>
+    <div className=" shadow bg-white carte2 p-3" onClick={handleClick}>
       <div className="d-flex gap-1">
         <h5 className=" card-h5  p-2">{membresbloques}</h5>
         <Icons
